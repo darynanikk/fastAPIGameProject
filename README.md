@@ -12,7 +12,8 @@
 
 ## In Docker:
     1. set DEBUG to False
-    2. set you DB_NAME, DB_USER, DB_PASSWORD, DB_PORT, DB_LOCALHOST in .env
+    2. create .env in the root directory
+    3. set you DB_NAME, DB_USER, DB_PASSWORD, DB_PORT, DB_LOCALHOST in .env
     
       in docker-compose.yaml
           DATABASE_URL=postgresql://{DB_USER}:{DB_PASSWORD}@db:{DB_PORT}/{DB_NAME}
@@ -21,7 +22,7 @@
           POSTGRES_PASSWORD={DB_PASSWORD}
           POSTGRES_DB={DB_NAME}
 
-    3. docker compose up --build
+    4. docker compose up --build
     
  ## Testing endpoints
    - Navigate to /docs
