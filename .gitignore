@@ -15,10 +15,12 @@ log.txt
 Pipfile.lock
 env3.*
 env
+.env
 docs_build
 venv
 docs.zip
 archive.zip
+app/sql_app.db
 
 # vim temporary files
 *~
