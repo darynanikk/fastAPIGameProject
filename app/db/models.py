@@ -21,7 +21,7 @@ class User(Base):
 
     @validates('age')
     def validate_age(self, key, value):
-        if value <= 0 or value >= 100:
+        if value < 0 or value > 100:
             raise ValueError("Age should be greater than 0 and less than 100")
         return value
 
