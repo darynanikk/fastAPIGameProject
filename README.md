@@ -1,10 +1,10 @@
 # fastAPIGameProject
 
 ## Getting started
-  I am using PyCharm, so there is no need to manully create virtual environment
-  git clone git@github.com:darynanikk/fastAPIGameProject.git
-  cd fastAPIGameProject
-  pip install -r requriements.txt
+  - I am using PyCharm, so there is no need to manully create virtual environment
+  - git clone git@github.com:darynanikk/fastAPIGameProject.git
+  - cd fastAPIGameProject
+  - pip install -r requriements.txt
   
 - Run the project locally:
   1. set DEBUG to True in config.py
